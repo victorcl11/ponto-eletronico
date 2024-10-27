@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Ponto Eletrônico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Ponto Eletrônico</h1>
+        <div id="currentDateTime"></div>
+    </header>
+
+    <main>
+        <section 
+        class="container"
+        id="register">
+            <h2>Registrar Ponto</h2>
+
+
+            <button onclick="registerEntryExit('entrada')">Registrar Entrada</button>
+            <button onclick="registerEntryExit('saida')">Registrar Saída</button>
+            <button onclick="registerBreak('entrada')">Entrada Intervalo</button>
+            <button onclick="registerBreak('saida')">Saída Intervalo</button>
+            <button onclick="addPastEntry()">Registrar Ponto no Passado</button>
+        </section>
+
+        <section 
+        class="container"
+        id="justification">
+            <h2>Justificativa de Ausência</h2>
+            <textarea id="absenceReason" placeholder="Justificativa para ausência..."></textarea>
+            <input type="file" id="fileUpload" />
+            <button onclick="addAbsence()">Registrar Justificativa</button>
+        </section>
+
+
+    </main>
+
+    <section 
+    id="report"
+    
+    >
+        <a href="report.html"><button>Visualizar Relatório</button></a>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
