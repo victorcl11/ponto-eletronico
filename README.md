@@ -1,7 +1,7 @@
 # Sistema de Ponto Eletrônico
 ### Este projeto é um sistema de ponto eletrônico desenvolvido em HTML, CSS e JavaScript, utilizado para registrar entradas, saídas, intervalos e faltas. Criado como parte da disciplina de Programação Web no UniCEUB.
 ![página1](https://github.com/user-attachments/assets/95a417bf-5857-4ae3-b2bd-20fab566dc1d)
-## (Clique aqui para acessar){}
+## [Clique aqui para acessar]()
 ## Funcionalidades
 - Registro de Entrada e Saída: Registra a entrada e saída dos usuários com a localização atual e horário do registro.
 - Intervalos: Permite registrar intervalos (início e fim) de forma organizada.
